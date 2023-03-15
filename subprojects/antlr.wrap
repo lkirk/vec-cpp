@@ -1,0 +1,9 @@
+[wrap-file]
+directory = antlr4-4.11.1
+source_url = https://github.com/antlr/antlr4/archive/refs/tags/4.11.1.tar.gz
+source_filename = 4.11.1.tar.gz
+source_hash = 81f87f03bb83b48da62e4fc8bfdaf447efb9fb3b7f19eb5cbc37f64e171218cf
+diff_files = antlr4/0001.patch
+
+[provide]
+antlr4 = antlr_dep
