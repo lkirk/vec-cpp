@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eux
+
+ANTLR_JAR=antlr-4.11.1-complete.jar
+
+[ -e $ANTLR_JAR ] || wget https://www.antlr.org/download/$ANTLR_JAR
+
+
+java -jar $ANTLR_JAR -Dlanguage=Cpp -o parser VecCpp.g4
