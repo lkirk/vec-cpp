@@ -1,3 +1,5 @@
 *.~undo-tree~
+*.jar
+.cache/*
 subprojects/*
 !subprojects/*.wrap
